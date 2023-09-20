@@ -1,15 +1,23 @@
-import { useState } from 'react'
-import './App.css'
+import { useState, useEffect } from "react";
+import "./App.css";
+import ClimaDiaIzquierda from "./components/vista/ClimaDiaIzquierda";
+import UseClima from "./services/useClima";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { data, enviarDato } = UseClima();
 
   return (
     <>
-      <h1>hola</h1>
-        
+      <main>
+        <div className="izquierdo">
+          <ClimaDiaIzquierda enviarDato={enviarDato} data={data} />
+        </div>
+        <div>
+          <h1>derecho</h1>
+        </div>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
