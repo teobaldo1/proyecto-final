@@ -1,4 +1,57 @@
 .infoLeft{
-background-image: url("public/image/Cloud-background.png");
-background-color: brown;
+width: 350px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+background-color: rgb(30, 33, 58);
+border: 2px solid yellow;
+background-image: url("/public/image/Cloud-background.png");
+background-repeat: no-repeat;
+}
+.datosClimaDia{
+width: 40%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
+#tempPrincipal{
+    font-size: 4rem;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+#estadoClima{
+    padding-bottom: 50px;
+    color: rgb(204, 208, 212);
+}
+#today{
+padding-bottom: 10px;
+font-size: 1rem;
+color: rgb(204, 208, 212);
+}
+#input{
+    display: flex;
+    gap: 150px;
+    color: aliceblue;
+    
+}
+#ciudad{
+    display: flex;
+    text-align: center;
+    color: rgb(204, 208, 212);
+    font-size: 0.8rem;
+}
+#estiloInput{
+width: 120px;
+text-align: center;
+background-color: rgb(207, 203, 203);
+
+}
+#location{
+    
+    width: 10px;
+    
 }

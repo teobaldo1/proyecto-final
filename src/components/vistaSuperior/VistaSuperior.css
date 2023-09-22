@@ -1,0 +1,44 @@
+.cajaSiguientesDias{
+   height: 250px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px   ;
+  padding-bottom: 60px;
+  width: 800px;
+  background-color:rgb(16, 14, 29);
+  border-top: 60px;
+}
+.maxMin{
+    width: 80px;
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+    justify-content: center;
+    background-color:  rgb(30, 33, 58);
+    color: aliceblue;
+    padding-top: 0px;
+}
+.cardDias{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 120px;
+    font-size: 0.7rem;
+    background-color: rgb(30, 33, 58);
+    padding-bottom: 0px;
+    align-items: center;
+    color: aliceblue;
+}
+.card{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(30, 33, 58);
+    align-items: center;
+
+}
