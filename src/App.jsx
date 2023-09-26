@@ -32,6 +32,7 @@ function App() {
             london={verLondres}
             barcelona={verBarcelona}
             longBeach={verLongBeach}
+            /* hola mundo */
           />
           <ClimaDiaIzquierda
             enviarDato={enviarDato}
