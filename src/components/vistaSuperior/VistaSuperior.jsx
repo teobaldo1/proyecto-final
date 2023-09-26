@@ -2,11 +2,18 @@ import React from "react";
 import "./VistaSuperior.css";
 
 function VistaSuperior(data) {
-   
- const fecha2= new Date (data.data && data.data.list[14].dt_txt.substr(0, 10)).toGMTString( ).substr(0,12) 
- const fecha3= new Date (data.data && data.data.list[22].dt_txt.substr(0, 10)).toGMTString( ).substr(0,12)
- const fecha4= new Date (data.data && data.data.list[30].dt_txt.substr(0, 10)).toGMTString( ).substr(0,12)
- const fecha5= new Date (data.data && data.data.list[38].dt_txt.substr(0, 10)).toGMTString( ).substr(0,12)
+  const fecha2 = new Date(data.data && data.data.list[14].dt_txt.substr(0, 10))
+    .toGMTString()
+    .substr(0, 12);
+  const fecha3 = new Date(data.data && data.data.list[22].dt_txt.substr(0, 10))
+    .toGMTString()
+    .substr(0, 12);
+  const fecha4 = new Date(data.data && data.data.list[30].dt_txt.substr(0, 10))
+    .toGMTString()
+    .substr(0, 12);
+  const fecha5 = new Date(data.data && data.data.list[38].dt_txt.substr(0, 10))
+    .toGMTString()
+    .substr(0, 12);
   const tempMax =
     Math.trunc((data.data && data.data.list[6].main.temp_max) - 273.15) + "ºC";
   const tempMin =
