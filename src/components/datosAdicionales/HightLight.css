@@ -75,25 +75,25 @@ background-color:rgb(16, 14, 29);
 
 }
 #navigation {
-    font-size: 15px;
+    font-size: 12px;
     background-color: rgb(63, 66, 87);
     border-radius: 100%;
-    transform: rotate(-150deg);
+    transform: rotate(-180deg);
     padding:5px;
-    position: relative;
     top:-1rem;
     color: aliceblue;
-    align-items: center;
-    justify-content: center;
+    width: 20px;
+    height: 20px;
+    
     
     }
 #navegador{
     display: flex;
-    gap: 20px;
-    width: 70px;
-    height: 25px;
+    gap: 10px;
     
+ 
 }
+
 .ctn-progres{
     display: flex;
     flex-direction: column;
@@ -121,6 +121,6 @@ progress[value]::-webkit-progress-value {
     background-color: gold;
     border-left: 5px;
   } 
-#numeroBarra{
+.numeroBarra{
 color: aliceblue;
 }

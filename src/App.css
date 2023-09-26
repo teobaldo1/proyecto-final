@@ -3,11 +3,12 @@
     border: 0;
     box-sizing: border-box;
 
+
 }
 .main{
     min-height: 100%;
     min-width: 100%;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: row;
     padding-left: 50px;

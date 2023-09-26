@@ -5,13 +5,12 @@ flex-direction: column;
 align-items: center;
 padding-top: 20px;
 background-color: rgb(30, 33, 58);
-border: 2px solid yellow;
-background-image: url("/public/image/Cloud-background.png");
-background-repeat: no-repeat;
+
+
 }
 .datosClimaDia{
 width: 40%;
-height: 90vh;
+height: 94vh;
 display: flex;
 flex-direction: column;
 
@@ -24,11 +23,11 @@ align-items: center;
     color: aliceblue;
 }
 #estadoClima{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     color: rgb(204, 208, 212);
 }
 #today{
-padding-bottom: 10px;
+padding-bottom: 30px;
 font-size: 1rem;
 color: rgb(204, 208, 212);
 }
@@ -43,11 +42,13 @@ color: rgb(204, 208, 212);
     text-align: center;
     color: rgb(204, 208, 212);
     font-size: 0.8rem;
+    height: 5px;
 }
 #estiloInput{
 width: 120px;
 text-align: center;
 background-color: rgb(207, 203, 203);
+cursor: pointer;
 
 }
 #location{
@@ -55,3 +56,10 @@ background-color: rgb(207, 203, 203);
     width: 10px;
     
 }
+#today{
+    display: flex;
+    font-size:x-small;
+    width: 200px;
+    justify-content: center;
+}
+

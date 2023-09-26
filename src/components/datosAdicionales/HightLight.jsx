@@ -31,13 +31,17 @@ function HightLight({ data }) {
                 <span className="unidades">%</span>
               </h1>
               <div className="ctn-progres">
-                <label id="numeroBarra">
+                <label className="numeroBarra">
                   <h1>0</h1>
                   <h1>50</h1>
                   <h1>100</h1>
                 </label>
-                <progress id="file" max="100" value={data && data.list[0].main.humidity}></progress>
-                <label>%</label>
+                <progress
+                  id="file"
+                  max="100"
+                  value={data && data.list[0].main.humidity}
+                ></progress>
+                <label className="numeroBarra">%</label>
               </div>
             </div>
           </div>

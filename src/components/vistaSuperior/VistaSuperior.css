@@ -1,5 +1,5 @@
 .cajaSiguientesDias{
-   height: 250px;
+   height: 270px;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -21,18 +21,20 @@
     justify-content: center;
     background-color:  rgb(30, 33, 58);
     color: aliceblue;
-    padding-top: 0px;
+    padding-bottom: 15px;
 }
 .cardDias{
+    padding-top: 20px;
+    
     display: flex;
     flex-direction: column;
     width: 80px;
     height: 120px;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     background-color: rgb(30, 33, 58);
-    padding-bottom: 0px;
     align-items: center;
     color: aliceblue;
+  
 }
 .card{
     width: 80px;
