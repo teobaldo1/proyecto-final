@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-function UseClima() {
+function Clima() {
   const [data, setData] = useState(null);
   const [ciudad, setCiudad] = useState("bogota");
 
@@ -53,4 +53,5 @@ function UseClima() {
   };
 }
 
-export default UseClima;
+export default Clima;
+

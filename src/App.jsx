@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import ClimaDiaIzquierda from "./components/vista/ClimaDiaIzquierda";
-import UseClima from "./services/useClima";
+import Clima from "./services/Clima";
 import HightLight from "./components/datosAdicionales/HightLight";
 import VistaSuperior from "./components/vistaSuperior/VistaSuperior";
 import Modal from "./components/modal/Modal";
+
 
 function App() {
   const {
@@ -14,7 +15,7 @@ function App() {
     verLondres,
     verBarcelona,
     verLongBeach,
-  } = UseClima();
+  } = Clima();
   const [modal, setModal] = useState(false);
 
   const activarModal = () => {
