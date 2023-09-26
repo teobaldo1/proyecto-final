@@ -1,0 +1,126 @@
+
+#cajaPrincipal{
+display: flex;
+flex-direction: column;
+height: 350px;
+background-color:rgb(16, 14, 29);
+
+}
+.cajaDatos{
+        width: 800px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        
+}
+.tituloCajas{
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+.primeraFila{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 30px;
+    
+}
+.segundaFila{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.unidades{
+    font-size: 1.5rem;
+    color: rgb(204, 208, 212);
+}
+.contenedorCajas{
+    width: 500px;
+    height: 500px;
+    row-gap: 50px;
+    column-gap: 80px;
+   
+}
+.cajas{
+    display: flex;
+    width: 230px ;
+    height: 110px;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(30, 33, 58);
+    justify-content: center;
+    
+}
+#infoInferior{
+    color: aliceblue;
+    font-size: 1.2rem;
+    
+}
+.infoCards{
+    color: aliceblue; 
+    font-size: 1rem;
+
+}
+.numeros{
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+.wsw{
+    color: aliceblue; 
+    font-size: 0.8rem;
+
+}
+#navigation {
+    font-size: 12px;
+    background-color: rgb(63, 66, 87);
+    border-radius: 100%;
+    transform: rotate(-180deg);
+    padding:5px;
+    top:-1rem;
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    
+    
+    }
+#navegador{
+    display: flex;
+    gap: 10px;
+    
+ 
+}
+
+.ctn-progres{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ctn-progres > label:first-child {
+    display: flex;
+    font-size: 4px;
+    font-weight: 40;
+    gap: 4rem;
+}
+.ctn-progres > label:last-child{
+
+ text-align: end;
+ font-size: 10px;
+}
+#file{
+    appearance: none;
+    -webkit-appearance: none;
+     height: 7px;
+   
+}
+progress[value]::-webkit-progress-value {
+    background-color: gold;
+    border-left: 5px;
+  } 
+.numeroBarra{
+color: aliceblue;
+}

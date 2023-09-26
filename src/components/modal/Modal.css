@@ -1,0 +1,70 @@
+#inputModal{
+    border: 1px solid white;
+    height: 40px;
+    width: 220px;
+    background-color:  rgb(30, 33, 58);
+    color: aliceblue;
+    padding-left: 20px;
+}
+.listaFija{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: rgb(30, 33, 58);
+    height: 200px;
+
+}
+#x{
+    display: flex;
+    padding-left: 230px;
+    color: aliceblue;
+    padding-bottom: 40px;
+    
+}
+#botonx{
+    background-color:  rgb(30, 33, 58);
+    color: aliceblue;
+    cursor: pointer;
+}
+.modal{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    height: 620px;
+    width: 350px;
+    align-items: center;
+    padding-top: 20px;  
+    background-color: rgb(30, 33, 58);
+    transform:translateY(-100%)
+}
+.modal.active{
+    transform: translateY(0);
+}
+#boton{
+    background-color: rgb(78, 78, 173);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.contenedoinput{
+    
+    padding-top: 30px;
+    width: 280px;
+    
+    }
+.cajaInput{
+    display: flex;
+    width:280px;
+    height: 40px;
+    gap: 10px;
+    
+    
+}
+.inputs{
+    width: 280px;
+    height: 40px;
+    background-color: rgb(30, 33, 58);
+    padding-left: 10px;
+    cursor: pointer;
+}
